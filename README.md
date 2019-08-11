@@ -43,7 +43,7 @@ Você deverá receber uma http Response nesse formato:
 ```
 No Postman, selecione a aba 'body', marque a opção 'raw' e na combobox ao lado selecione XML(text/xml).
 
-A cole no body requisição nesse formato para seu-host/listar.
+Cole no body a requisição nesse formato para seu-host/listar.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -56,7 +56,7 @@ A cole no body requisição nesse formato para seu-host/listar.
 O resultado será uma lista de estados no formato xml.
 
 
-A cole no body requisição nesse formato para seu-host/somar.
+Cole no body a requisição nesse formato para seu-host/somar.
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
