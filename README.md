@@ -24,6 +24,7 @@ com este tipo de webservice.
 * Configure o php executável nas variáveis de ambiente do sistema operacional
 * Abra o diretório do projeto com o Visual Code e exiba o terminal no menu Exibir->Terminal
 * Altere a URI na classe Controller.php e as informações de conexão com o banco de dados na classe Connection.php
+* No terminal aberto, execute o camando: php -S localhost:8000 -t public
 
 ### Testando
 
