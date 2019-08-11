@@ -71,6 +71,33 @@ A cole no body requisição nesse formato para seu-host/somar.
 ```
 O resultado será um xml com o resultado a soma.
 
+## Exemplo Online
 
+O webservice online é um exemplo funcional deste exemplo.
 
+No Postman, selecione a aba 'body', marque a opção 'raw' e na combobox ao lado selecione XML(text/xml).
+Então submeta uma requisição POST para http://soap.thiagoalopes.com.br/somar no formato abaixo:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Body>
+      <somar>
+        <a>10</a>
+        <b>10</b>
+      </somar>
+     </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+```
+
+No Postman submeta uma requisição POST para http://soap.thiagoalopes.com.br/listar no formato abaixo:
+
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP-ENV:Body>
+      <all/>   
+     </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>
+```
 
