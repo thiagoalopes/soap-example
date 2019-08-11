@@ -73,7 +73,7 @@ O resultado será um xml com o resultado a soma.
 
 ## Exemplo Online
 
-O webservice online é um exemplo funcional deste exemplo.
+O webservice online é um exemplo funcional deste repositório.
 
 No Postman, selecione a aba 'body', marque a opção 'raw' e na combobox ao lado selecione XML(text/xml).
 Então submeta uma requisição POST para http://soap.thiagoalopes.com.br/somar no formato abaixo:
